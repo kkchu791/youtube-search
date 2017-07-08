@@ -11,9 +11,7 @@ const API_KEY = 'AIzaSyD3wGVYY-l516wFvywGZXoXG5ElKXMM-wE';
 class App extends Component {
   constructor(props) {
     super(props);
-
     this.state = { videos: [], selectedVideo: null };
-
     this.videoSearch('beach');
   }
 
